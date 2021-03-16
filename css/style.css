@@ -1,0 +1,118 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+  
+}
+
+
+header{
+    width: 100%;
+    height: 65px;
+    background-color: #3f8f8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    flex-direction: column;
+    display: flex;
+
+}
+form label{
+font-weight: bolder;
+
+}
+img{
+    width: 33px;
+    border-radius: 6px;
+
+}
+main div:nth-child(1){
+    margin-right: 23px;
+}
+main div:nth-child(2){
+  width:27%;
+  
+}
+main div:nth-child(2) table{
+  width:100%;
+
+}
+
+td ,th{
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+
+
+fieldset
+{
+    display: flex;
+    border: 2px dotted #5dc0a6;
+    /* border-style: dotted; */
+    border-radius: 10px;
+    padding: 29px;
+}
+
+tr:nth-child(odd)
+{
+    
+    background-color: #f6b8d1;
+}
+tr:nth-child(even)
+{
+    background-color: #ffd3de;
+}
+
+
+footer{
+    width: 100%;
+    height: 65px;
+    background-color: #3f8f8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons
+{
+    margin-top: 9px;
+}  
+
+.buttons input
+{
+    margin-left: 4px;
+}
+
+.buttons input:nth-child(1)
+{
+    background-color: green;
+    border: none;
+    height: 28px;
+    color:white;
+}
+.buttons input:nth-child(2)
+{
+    background-color: red;
+    border: none;
+    height: 28px;
+    color:white;
+}
+
+td span
+{
+    font-size: 11px;
+    font-weight: bolder;
+}
